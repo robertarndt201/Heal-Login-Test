@@ -7,6 +7,7 @@ Dependencies:
   -Python 2.7
   -sudo apt-get install python-selenium
   -Download ChromeDriver from https://sites.google.com/a/chromium.org/chromedriver/downloads
+  (might just be able to install via sudo apt-get install chromium-chromedriver)
   -pip install selenium
   -pip install lettuce_webdriver
   -pip install nose
