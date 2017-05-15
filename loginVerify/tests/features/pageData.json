@@ -1,0 +1,40 @@
+{
+  "User": {
+    "us": "ugOC1LYoYGUj1PTMDb+IBNcWCVpXBhCR5O2FsfWWO2YL0SgUJtXZ9ZZOZ8hrIbHq",
+    "pa": "K7Lf9JFeYZDhtZdDwRXUPL9gnX0K0628F5c5g2KqUJk="
+  },
+  "LoginPage": {
+    "healLogo": ["#authentication-view > md-card > div > img", "img"], 
+    "forgotPasswordLink": ["#login-view > form > div.layout-margin.layout-wrap.layout-row > div.pull-right > a", "lnk"],
+    "registerLink": ["#login-view > form > div.layout-padding.layout-column > a", "lnk"],
+    "usernameField": ["#input_0", "fld"],
+    "passwordField": ["#input_1", "fld"],
+    "rememberMeCheckbox": ["#login-view > form > div.layout-margin.layout-wrap.layout-row > div.flex > md-checkbox > div.md-container.md-ink-ripple", "ckbx"],
+    "rememberMeLabel": ["#login-view > form > div.layout-margin.layout-wrap.layout-row > div.flex > md-checkbox > div.md-label", "lbl"],
+    "loginBtn": ["#login-view > form > div.layout-padding.layout-column > button", "btn"],
+    "fakeObject": ["#fake", "unknown"]
+  },
+  "RegistrationPage": {
+    "healLogo": ["#authentication-view > md-card > div > img", "img"],
+    "firstNameField": ["#input_0", "fld"],
+    "lastNameField": ["#input_1", "fld"],
+    "emailField": ["#input_2", "fld"],
+    "passField": ["#input_3", "fld"],
+    "confirmPassField": ["#input_4", "fld"],
+    "phoneField": ["#input_5", "fld"],
+    "zipCodeField": ["#input_6", "fld"],
+    "rememberMeCheckBox": ["#register-view > form > div:nth-child(8) > div > md-checkbox > div.md-container.md-ink-ripple", "ckbx"],
+    "rememberMeField": ["#register-view > form > div:nth-child(8) > div > md-checkbox > div.md-label", "fld"],
+    "createAcctBtn": ["#register-view > form > div.layout-padding.layout-column > button", "btn"],
+    "loginPageLink": ["#register-view > form > div.layout-padding.layout-column > a", "lnk"]
+  },
+  "BookVisitPage": {
+    "healLogo": ["#heal-header > div > div.header-logo.hide-gt-md.layout-padding.layout-align-center-start.layout-column > div > img", "img"],
+    "userText": ["#heal-header > div > div.header-toolbar.layout-align-end-center.layout-row > div.patient-name.margin-left-0-on-mobile.layout-margin.layout-row > div.layout-align-center-center.layout-column > div.primary-blue.hide-gt-xs.show-xs.ng-binding", "txt"],
+    "sideMenuBtn": ["#heal-header > div > div.header-toolbar.layout-align-end-center.layout-row > div.hide-gt-md.layout-align-center-center.layout-column > button > md-icon", "btn"],
+    "bookVisitText": ["#book-visit > md-card > md-card-title > md-card-title-text > span > h3", "txt"],
+    "checkIfEmergencyText": ["#book-visit > md-card > md-card-content > div > div.layout-padding-0-on-mobile.layout-padding.layout-align-center-stretch.layout-row > h3", "txt"],
+    "yesEmergencyBtn": ["#book-visit > md-card > md-card-content > div > div.layout-wrap.layout-gt-sm-row.layout-align-center-stretch > div:nth-child(1) > button", "btn"],
+    "noEmergencyBtn": ["#book-visit > md-card > md-card-content > div > div.layout-wrap.layout-gt-sm-row.layout-align-center-stretch > div:nth-child(2) > a", "btn"]
+  }
+}
